@@ -30,3 +30,19 @@ Simplicidad: Para esta prueba, useState es una solución sencilla y eficiente. D
 Control directo sobre los datos: Al usar useState, tengo un control más directo sobre el manejo de los datos, como la creación, actualización y eliminación de elementos en el estado de la aplicación, sin la sobrecarga de abstraerlo a través de una librería como react-query.
 
 Si se tratara de una aplicación con interacciones más complejas con una API (caching, sincronización de datos, etc.), react-query sería una mejor opción. Sin embargo, en este caso, useState cumple bien con los requisitos.
+
+## Instalación de dependencias
+
+Para instalar Next.js, React y TypeScript, ejecuta los siguientes comandos en la terminal:
+
+1. Asegúrate de tener **Node.js version mas actual** instalado. Puedes verificarlo ejecutando:
+   ```bash
+   node -v
+**npx create-next-app@latest --typescript**
+**npm install --save-dev typescript @types/react @types/node**
+**npm install next react react-dom**
+**npm run dev**
+
+
+
+
