@@ -1,0 +1,13 @@
+.container-form {
+  display: grid;
+  gap: 30px;
+  width: 400px;
+  margin: auto;
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 400px) {
+  .container-form {
+    width: 90%;
+  }
+}
