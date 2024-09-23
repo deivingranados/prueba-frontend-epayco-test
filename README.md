@@ -38,10 +38,10 @@ Para instalar Next.js, React y TypeScript, ejecuta los siguientes comandos en la
 1. Asegúrate de tener **Node.js version mas actual** instalado. Puedes verificarlo ejecutando:
    ```bash
    node -v
-**npx create-next-app@latest --typescript**
-**npm install --save-dev typescript @types/react @types/node**
-**npm install next react react-dom**
-**npm run dev**
+npx create-next-app@latest --typescript
+npm install --save-dev typescript @types/react @types/node
+npm install next react react-dom
+npm run dev
 
 
 
